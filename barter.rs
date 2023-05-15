@@ -11,13 +11,11 @@ mod barter {
     struct Barter {
         // User A vaults, keys and state
         a_nft_vaults: HashMap<ResourceAddress, Vault>,
-        // a_token_vaults: HashMap<ResourceAddress, Vault>,
         a_vault_key: ResourceAddress,
         a_pending_time: bool,
         
         // User B vaults, keys and state
         b_nft_vaults: HashMap<ResourceAddress, Vault>,
-        // b_token_vaults: HashMap<ResourceAddress, Vault>,
         b_vault_key: ResourceAddress,
         b_vault_key_hold: Vault,
         b_pending_time: bool,
